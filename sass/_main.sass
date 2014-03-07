@@ -647,9 +647,14 @@ a.footer__mail
 		&.benefits__section-5
 			.benefits__num:before
 				+s(num_5)
+		figure
+			img
+				display: block
+				max-width: 100%
+				margin-left: auto
+				margin-right: auto
 		.container
-			padding-top: 50px
-			padding-bottom: 60px
+			padding: 50px 40px 60px
 	.benefits__head
 		+clr
 	.benefits__num
@@ -668,9 +673,15 @@ a.footer__mail
 	.benefits__desc
 		overflow: hidden
 		.h2
+			position: relative
 			text-transform: none
 			margin-bottom: .5em
-
+		p
+			position: relative
+		figure
+			margin-top: -35px
+	.benefits__content
+		margin-top: 45px
 .technology
 	background-color: #efefef
 	.container

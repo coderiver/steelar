@@ -255,13 +255,17 @@ a.footer__mail:hover { text-decoration: none; }
 .benefits .benefits__section.benefits__section-3 .benefits__num:before { background: url('../img/icons-s60e9bb6cc9.png') 0 -586px no-repeat; width: 30px; height: 81px; }
 .benefits .benefits__section.benefits__section-4 .benefits__num:before { background: url('../img/icons-s60e9bb6cc9.png') 0 -859px no-repeat; width: 30px; height: 81px; }
 .benefits .benefits__section.benefits__section-5 .benefits__num:before { background: url('../img/icons-s60e9bb6cc9.png') 0 -1232px no-repeat; width: 30px; height: 81px; }
-.benefits .benefits__section .container { padding-top: 50px; padding-bottom: 60px; }
+.benefits .benefits__section figure img { display: block; max-width: 100%; margin-left: auto; margin-right: auto; }
+.benefits .benefits__section .container { padding-top: 50px; padding-bottom: 60px; padding: 50px 40px 60px; }
 .benefits .benefits__head { *zoom: 1; }
 .benefits .benefits__head:after { content: " "; display: table; clear: both; }
 .benefits .benefits__num { position: relative; float: left; font-size: 155px; margin-right: 50px; line-height: 1; border-bottom: 8px solid #212121; margin-top: -15px; }
 .benefits .benefits__num:before { position: absolute; top: 33px; right: 0; content: ""; }
 .benefits .benefits__desc { overflow: hidden; }
-.benefits .benefits__desc .h2 { text-transform: none; margin-bottom: 0.5em; }
+.benefits .benefits__desc .h2 { position: relative; text-transform: none; margin-bottom: 0.5em; }
+.benefits .benefits__desc p { position: relative; }
+.benefits .benefits__desc figure { margin-top: -35px; }
+.benefits .benefits__content { margin-top: 45px; }
 
 .technology { background-color: #efefef; }
 .technology .container { padding: 60px 50px; }
