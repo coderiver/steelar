@@ -37,6 +37,8 @@ table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 
 body { font-family: "Istok Web", sans-serif; font-size: 14px; font-weight: normal; line-height: 1.4; color: #212121; background: white; min-width: 1000px; }
 
+.landing .topper { margin-bottom: 0; }
+
 a { color: #6f6f6f; text-decoration: underline; }
 a:hover { text-decoration: none; }
 
@@ -46,11 +48,11 @@ a:hover { text-decoration: none; }
 
 .h3 { font-size: 14px; text-transform: uppercase; }
 
-.out { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -425px; padding-top: 80px; }
+.out { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -425px; }
 
 .footer, .push { height: 425px; }
 
-.page.page_inner { padding-top: 30px; }
+.page { padding-top: 80px; }
 
 .container { max-width: 1000px; margin-left: auto; margin-right: auto; padding-left: 50px; padding-right: 50px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
@@ -89,7 +91,7 @@ a:hover { text-decoration: none; }
 .logo { float: right; background: url('../img/icons-s60e9bb6cc9.png') 0 -74px no-repeat; width: 108px; height: 39px; font: 0/0 a; text-shadow: none; color: transparent; margin-top: 20px; }
 .logo a { display: block; height: 100%; }
 
-.carousel, .carousel__slide { min-height: 535px; }
+.carousel, .carousel__slide { min-height: 555px; }
 
 .carousel { position: relative; width: 100%; }
 
@@ -103,8 +105,8 @@ a:hover { text-decoration: none; }
 
 .carousel__inner { max-width: 1000px; margin-left: auto; margin-right: auto; padding-left: 50px; padding-right: 50px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 135px 0 0 80px; }
 
-.carousel__desc { font-size: 18px; line-height: 1.1345; text-transform: uppercase; color: white; width: 310px; padding-left: 80px; margin-left: -80px; }
-.carousel__desc span { display: inline; background: rgba(12, 27, 112, 0.8); -webkit-box-shadow: 15px 0 0 rgba(12, 27, 112, 0.8), -80px 0 0 rgba(12, 27, 112, 0.8); -moz-box-shadow: 15px 0 0 rgba(12, 27, 112, 0.8), -80px 0 0 rgba(12, 27, 112, 0.8); box-shadow: 15px 0 0 rgba(12, 27, 112, 0.8), -80px 0 0 rgba(12, 27, 112, 0.8); }
+.carousel__desc { font-size: 18px; text-transform: uppercase; color: white; width: 335px; line-height: 1.45; }
+.carousel__desc span { display: inline-block; background: rgba(12, 27, 112, 0.8); padding-left: 80px; padding-right: 15px; padding-top: 2px; padding-bottom: 2px; margin-left: -80px; }
 
 .carousel__title { position: relative; font-size: 32px; color: white; font-weight: bold; text-transform: uppercase; margin-bottom: 15px; margin-left: -80px; }
 .carousel__title:before { position: absolute; top: 50%; margin-top: -47px; left: 0; content: ""; background: url('../img/icons-s60e9bb6cc9.png') 0 -250px no-repeat; width: 34px; height: 92px; }
@@ -234,7 +236,7 @@ a:hover { text-decoration: none; }
 a.footer__mail { text-decoration: underline; }
 a.footer__mail:hover { text-decoration: none; }
 
-.topper { background: url("../img/bg.jpg") no-repeat; color: white; margin-bottom: 50px; }
+.topper { background: url("../img/bg.jpg") no-repeat; color: white; margin-bottom: 80px; }
 .topper .container { margin-bottom: -50px; padding-top: 10px; padding-left: 45px; padding-right: 45px; }
 .topper a { color: inherit; }
 
@@ -256,7 +258,7 @@ a.footer__mail:hover { text-decoration: none; }
 .benefits .benefits__section.benefits__section-4 .benefits__num:before { background: url('../img/icons-s60e9bb6cc9.png') 0 -859px no-repeat; width: 30px; height: 81px; }
 .benefits .benefits__section.benefits__section-5 .benefits__num:before { background: url('../img/icons-s60e9bb6cc9.png') 0 -1232px no-repeat; width: 30px; height: 81px; }
 .benefits .benefits__section figure img { display: block; max-width: 100%; margin-left: auto; margin-right: auto; }
-.benefits .benefits__section .container { padding-top: 50px; padding-bottom: 60px; padding: 50px 40px 60px; }
+.benefits .benefits__section .container { padding: 50px 40px 60px; }
 .benefits .benefits__head { *zoom: 1; }
 .benefits .benefits__head:after { content: " "; display: table; clear: both; }
 .benefits .benefits__num { position: relative; float: left; font-size: 155px; margin-right: 50px; line-height: 1; border-bottom: 8px solid #212121; margin-top: -15px; }

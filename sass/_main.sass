@@ -16,6 +16,11 @@ body
 	color: #212121
 	background: #fff
 	min-width: 1000px
+
+.landing
+	.topper
+		margin-bottom: 0
+
 a
 	color: #6f6f6f
 	text-decoration: underline
@@ -37,13 +42,12 @@ a
 	height: auto !important
 	height: 100%
 	margin: 0 auto -425px
-	padding-top: 80px
+	// padding-top: 80px
 .footer, .push
 	height: 425px
 
 .page
-	&.page_inner
-		padding-top: 30px
+	padding-top: 80px
 
 .container
 	+wrap
@@ -157,7 +161,7 @@ a
 
 .carousel,
 .carousel__slide
-	min-height: 535px
+	min-height: 555px
 .carousel
 	position: relative
 	width: 100%
@@ -180,39 +184,20 @@ a
 .carousel__inner
 	+wrap
 	padding: 135px 0 0 80px
-	// .carousel__desc1
-	// 	background-color: #333
-	// 	position: relative
-	// 	line-height: 1
-	// 	color: #fff
-	// 	display: inline
-	// 	white-space: pre-wrap
-	// 	border: 0 solid #333
-	// 	border-width: 0.25em 0
-	// 	font-size: 24px
-	// 	&:after
-	// 		background-color: #333
-	// 		content: ""
-	// 		position: absolute
-	// 		top: -0.25em
-	// 		right: 100%
-	// 		bottom: -0.25em
-	// 		width: 0.25em
-	// 	span
-	// 		position: relative
-	// 		z-index: 1
 .carousel__desc
 	font-size: 18px
-	line-height: 1.1345
 	text-transform: uppercase
 	color: #fff
-	width: 310px
-	padding-left: 80px
-	margin-left: -80px
+	width: 335px
+	line-height: 1.45
 	span
-		display: inline
+		display: inline-block
 		background: rgba(#0c1b70, .8)
-		+box-shadow(15px 0 0 rgba(#0c1b70, .8), -80px 0 0 rgba(#0c1b70, .8))
+		padding-left: 80px
+		padding-right: 15px
+		padding-top: 2px
+		padding-bottom: 2px
+		margin-left: -80px
 .carousel__title
 	position: relative
 	font-size: 32px
@@ -595,7 +580,7 @@ a.footer__mail
 .topper
 	background: url('../img/bg.jpg') no-repeat
 	color: #fff
-	margin-bottom: 50px
+	margin-bottom: 80px
 	.container
 		margin-bottom: -50px
 		padding-top: 10px
