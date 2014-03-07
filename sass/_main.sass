@@ -199,9 +199,12 @@ a
 			text-decoration: underline
 // Normally mainpage styles
 .h1
-	font-size: 18px
+	font-size: 24px
 	text-transform: uppercase
 .h2
+	font-size: 18px
+	text-transform: uppercase
+.h3
 	font-size: 14px
 	text-transform: uppercase
 
@@ -214,6 +217,8 @@ a
 	height: 425px
 
 .page
+	&.page_inner
+		padding-top: 30px
 .container
 	+wrap
 
@@ -502,7 +507,7 @@ a
 	position: relative
 	float: left
 	width: 33.3%
-	text-align: left
+	// text-align: left
 	padding: 0 30px
 	+box
 	min-height: 95px
@@ -524,17 +529,183 @@ a.footer__mail
 
 
 
+// inner
+.subnav
+	margin-bottom: 20px
+	ul
+		font-size: 0
+		text-align: center
+	li
+		display: inline-block
+		font-size: 12px
+		text-transform: uppercase
+		color: #fff
+		// width: 220px
+		width: 24%
+		height: 45px
+		line-height: 45px
+		text-align: center
+		margin-left: 10px
+		background-color: #4d5fc1
+		&:hover, &.is-active
+			background-color: #6c83fc
+		&:first-child
+			margin-left: 0
+	a
+		display: block
+		color: inherit
+		text-decoration: none
+		&:hover
+			text-decoration: none
 
+.breadcrumbs
+	margin-bottom: 15px
+	a
+		text-decoration: none
+		&:hover
+			text-decoration: underline
+	li
+		display: inline-block
+		vertical-align: top
+		text-transform: uppercase
+		font-size: 12px
+		color: #fff
+		&:first-child
+			&:before
+				content: none
+		&:before
+			display: inline-block
+			vertical-align: top
+			content: ">"
+			margin-right: 3px
+		&.is-active
+			a
+				text-decoration: underline
 
+.topper
+	background: url('../img/bg.jpg') no-repeat
+	//+cover
+	//height: 305px
+	// margin-bottom: -50px
+	color: #fff
+	margin-bottom: 50px
+	a
+		color: inherit
+	.container
+		margin-bottom: -50px
+		padding-top: 10px
+		padding-left: 45px
+		padding-right: 45px
+.topper__main
+	margin-bottom: -50px
+	background-color: #f93
+	padding: 0 0 0 45px
+	+clr
+.topper__image
+	float: right
+	width: 203px
+	margin-left: 30px
+	img
+		display: block
+		width: 100%
+		height: auto
+		// height: 100%
+.topper__text
+	overflow: hidden
+	padding: 45px 0
 
+.benefits
+	.h1
+		text-align: center
+		margin-bottom: 25px
+	.benefits__section
+		background: url('../img/dot.png') 50% 8px repeat-x
+		color: #212121
+		&.benefits__section_mod
+			background-color: #424242
+			color: #fff
+			.benefits__num
+				border-color: #fff
+		.container
+			padding-top: 50px
+			padding-bottom: 60px
+	.benefits__head
+		+clr
+	.benefits__num
+		float: left
+		font-size: 155px
+		margin-right: 50px
+		line-height: 1
+		border-bottom: 8px solid #212121
+	.benefits__desc
+		overflow: hidden
+		.h2
+			text-transform: none
+			margin-bottom: .5em
 
+.technology
+	background-color: #efefef
+	.container
+		padding: 60px 50px
+	.technology__title
+		position: relative
+		padding-left: 25px
+		margin-bottom: 1em
+		&:before
+			position: absolute
+			top: 50%
+			margin-top: -12px
+			left: 0
+			content: ""
+			+s(arrow_sm)
+.list
+	li
+		position: relative
+		padding-left: 25px
+		margin-bottom: 0.5em
+		&:before
+			position: absolute
+			top: 7px
+			left: 7px
+			+s(list)
+			content: ""
 
-
-
-
-
-
-
+.downmenu
+	text-align: center
+	margin-bottom: 70px
+	li
+		position: relative
+		display: inline-block
+		vertical-align: top
+		margin: 0 20px
+		text-align: center
+		background: #424242
+		font-size: 12px
+		color: #fff
+		text-transform: uppercase
+		width: 115px
+		// min-height: 160px
+		+box
+		&:before
+			position: absolute
+			bottom: 0
+			left: 0
+			content: ""
+			+arr(116,20,#fff, t)
+		[class^="icon-"],
+		[class*=" icon-"]
+			display: block
+			margin-left: auto
+			margin-right: auto
+			margin-bottom: 20px
+		a
+			position: relative
+			display: block
+			text-decoration: none
+			color: inherit
+			padding: 45px 5px
+			min-height: 160px
+			+box
 
 
 
