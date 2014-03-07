@@ -2,7 +2,8 @@ $(document).ready(function() {
 
 	function caroHeight() {
 		var el_height = $(window).height();
-		$('.carousel, .carousel__slide').height(el_height);
+		var header_height = $('.header').height();
+		$('.carousel, .carousel__slide').height(el_height - header_height);
 	} caroHeight();
 
 	$(window).resize(function() {
