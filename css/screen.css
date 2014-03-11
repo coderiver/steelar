@@ -246,12 +246,13 @@ a:hover { text-decoration: none; }
 a.footer__mail { text-decoration: underline; }
 a.footer__mail:hover { text-decoration: none; }
 
-.topper { background: url("../img/bg.jpg") no-repeat; color: white; margin-bottom: 85px; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
-.topper .container { padding-top: 10px; padding-left: 45px; padding-right: 45px; height: 305px; }
+.topper { color: white; margin-bottom: 40px; }
+.topper .topper__bg { background: url("../img/bg.jpg") no-repeat; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; height: 305px; }
+.topper .container { padding-top: 10px; padding-left: 45px; padding-right: 45px; margin-top: -305px; }
 .topper a { color: inherit; }
 .topper .h1 { margin-bottom: 0.6em; }
 
-.topper__main { margin-bottom: -50px; background-color: #ff9933; padding: 0 0 0 45px; *zoom: 1; }
+.topper__main { background-color: #ff9933; padding: 0 0 0 45px; *zoom: 1; }
 .topper__main:after { content: " "; display: table; clear: both; }
 
 .topper__image { float: right; width: 203px; margin-left: 30px; }
