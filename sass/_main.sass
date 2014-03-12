@@ -56,10 +56,11 @@ a
 // Normally mainpage styles
 .subnav
 	margin-bottom: 16px
-	ul
+	.subnav__list
 		font-size: 0
 		text-align: center
-	li
+	.subnav__item
+		position: relative
 		display: inline-block
 		font-size: 12px
 		text-transform: uppercase
@@ -75,6 +76,9 @@ a
 			background-color: #6c83fc
 		&:first-child
 			margin-left: 0
+		&:hover
+			.subnav__drop
+				display: block
 	a
 		display: block
 		color: inherit
@@ -82,6 +86,28 @@ a
 		&:hover
 			text-decoration: none
 
+.subnav__drop
+	position: absolute
+	top: 100%
+	left: 0
+	right: 0
+	display: none
+	padding-top: 10px
+	.subnav__droplist
+		padding-top: 25px
+		padding-bottom: 25px
+		background-color: #6c83fc
+	li
+		display: block
+		height: auto
+		line-height: 1.2
+		text-transform: none
+		text-align: left
+		&:hover
+			background-color: #5c75fb
+	a
+		display: block
+		padding: 5px 30px
 .breadcrumbs
 	margin-bottom: 9px
 	a
